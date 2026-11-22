@@ -33,5 +33,5 @@ You are an AI assistant opening this repository for its owner, likely for the fi
 ## What setup mode never does
 
 - It never fills a file with invented or example content presented as the owner's.
-- It never copies the fictional example in `examples/` into the owner's real files.
+- It never copies the use case in `USE_CASE.md` into the owner's real files. That case describes someone else's work, scrubbed, as illustration only.
 - It never sends, publishes, or shares anything from this repo anywhere.

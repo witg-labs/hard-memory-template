@@ -16,7 +16,7 @@ Chat history is not memory. Hard Memory is a set of plain markdown files that ho
 | `people/` and `groups/` | One page per person or group that matters, with an index. Facts and relationships, stated by you, never guessed. |
 | `registers/` | Structured tables (CSV) for anything you will look up twice: assets, inventory, contacts, content, accounts. Recall becomes a lookup, not a re-audit. |
 | `modules/` | Optional rule packs you adopt or delete: workflow gates for delegated work, evidence standards for research, voice rules for writing, and more. |
-| `examples/` | A fully filled-in fictional example, so you can see the system working before you write a word of your own. |
+| `USE_CASE.md` | A real use case, scrubbed of names and private details: how this system runs two long projects at once, and how to map it to your own work. |
 | `SETUP.md` | The interview. Answer the questions and your core files are drafted. |
 | `ADAPTERS.md` | How to point different AI tools at these files: Muse, ChatGPT, Gemini, coding agents, or no AI at all. |
 
@@ -32,7 +32,7 @@ Chat history is not memory. Hard Memory is a set of plain markdown files that ho
 
 1. Copy this repo (or use it as a template) into a private repo or a local folder of your own.
 2. Open it with your AI assistant and say: **"Run setup mode."** The repo ships with `SETUP_MODE.md`, a protocol your agent follows to interview you and fill in every file from your answers. No manual editing required.
-3. Prefer to do it by hand? Work through `SETUP.md` and fill in `core/` yourself, using `examples/` as a reference.
+3. Prefer to do it by hand? Work through `SETUP.md` and fill in `core/` yourself. Read `USE_CASE.md` first to see how the finished system behaves in real use.
 4. Point your AI tool at the folder using `ADAPTERS.md`.
 5. Adopt only the `modules/` you need. The rest stay dormant.
 
