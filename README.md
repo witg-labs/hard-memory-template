@@ -13,6 +13,7 @@ Chat history is not memory. Hard Memory is a set of plain markdown files that ho
 | Piece | What it does |
 |---|---|
 | `core/` | The five core files: who you are, what is durably true, how the assistant should operate, its persona, and local tool notes. |
+| `rules/` | The hard rules: a generalized standing rule set with stable IDs and an index, covering memory, evidence, verification, authority, and delegation. Adopt as is, then add your own domain rules under it. |
 | `people/` and `groups/` | One page per person or group that matters, with an index. Facts and relationships, stated by you, never guessed. |
 | `registers/` | Structured tables (CSV) for anything you will look up twice: assets, inventory, contacts, content, accounts. Recall becomes a lookup, not a re-audit. |
 | `modules/` | Optional rule packs you adopt or delete: workflow gates for delegated work, evidence standards for research, voice rules for writing, and more. |

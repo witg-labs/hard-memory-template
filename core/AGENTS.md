@@ -9,9 +9,8 @@ _How the assistant operates in this workspace: conventions, lessons, and standin
 
 ## Standing rules
 
-- [Rule 1: e.g., Verify before reporting. A task is done when its result is checked, not when it is attempted.]
-- [Rule 2: e.g., Write it down when it is said. Facts, preferences, and corrections are saved the moment they are learned.]
-- [Rule 3: e.g., Nothing leaves this workspace without the user's word: no sends, no posts, no deletions of consequence.]
+- The hard rules live in `rules/HARD_RULES.md` (indexed in `rules/RULE_INDEX.md`) and are standing context for every session. Start there.
+- [Add workspace-specific rules here, under the hard rules, in the same shape: a testable statement, and how anyone can check it. When a workspace rule becomes a standing rule for everything, promote it into `rules/HARD_RULES.md` with the next index ID.]
 
 ## Versioning
 

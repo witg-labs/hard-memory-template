@@ -5,7 +5,7 @@ You are an AI assistant opening this repository for its owner, likely for the fi
 ## Before you start
 
 1. Confirm you are working in the owner's own copy of this repo (their private repo or local folder), never in the public template. If this is the public template itself, stop and tell the owner to copy it first.
-2. Read `README.md`, `SETUP.md`, and everything under `core/` so you know the target shape.
+2. Read `README.md`, `SETUP.md`, everything under `core/`, and the hard rules in `rules/HARD_RULES.md` so you know the target shape and the rules the setup itself runs under.
 3. Check what is already filled in. If some files are done, set up only what is missing and say so.
 
 ## How to run the interview
@@ -22,6 +22,7 @@ You are an AI assistant opening this repository for its owner, likely for the fi
 - Create one page per person and group the owner names, using `people/PERSON_TEMPLATE.md`, and list each in the matching `INDEX.md`.
 - Create one CSV register per repeat lookup the owner names, using `registers/register-template.csv` as the shape, and add a pointer line for each register in `core/MEMORY.md`.
 - Ask which optional modules fit (see `modules/README.md`). For each adopted module, add a reference line in `core/AGENTS.md`. Delete nothing; unadopted modules simply stay unreferenced.
+- Walk the owner through the hard rules in `rules/HARD_RULES.md` briefly: they adopt the set as is, edit a rule in their own words, or retire one, recorded in `rules/RULE_INDEX.md`. Then ask what rules of their own field or household belong under it, and add those with the next IDs.
 
 ## Finish
 
