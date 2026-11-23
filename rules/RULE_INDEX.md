@@ -38,3 +38,4 @@ Every hard rule in `HARD_RULES.md`, by stable ID. This index is the map: if a ru
 | Date | Change |
 |---|---|
 | Template v1 | HR-001 to HR-015 adopted as the generalized base set. |
+| 2026-11-22 | Version 1.0.0 pinned (git tag `v1.0.0`). |

@@ -16,7 +16,8 @@ Chat history is not memory. Hard Memory is a set of plain markdown files that ho
 | `rules/` | The hard rules: a generalized standing rule set with stable IDs and an index, covering memory, evidence, verification, authority, and delegation. Adopt as is, then add your own domain rules under it. |
 | `people/` and `groups/` | One page per person or group that matters, with an index. Facts and relationships, stated by you, never guessed. |
 | `registers/` | Structured tables (CSV) for anything you will look up twice: assets, inventory, contacts, content, accounts. Recall becomes a lookup, not a re-audit. |
-| `modules/` | Optional rule packs you adopt or delete: workflow gates for delegated work, evidence standards for research, voice rules for writing, and more. |
+| `modules/` | Optional rule packs you adopt or delete: workflow gates for delegated work, and evidence standards for research. |
+| `tools/` | The enforcement scripts: a facts-freshness checker, a forbidden-pattern gate, a trigger-file version stamper, and a branch verification script, each mapped to the hard rule it enforces. |
 | `USE_CASE.md` | A real use case, scrubbed of names and private details: how this system runs two long projects at once, and how to map it to your own work. |
 | `SETUP.md` | The interview. Answer the questions and your core files are drafted. |
 | `ADAPTERS.md` | How to point different AI tools at these files: Muse, ChatGPT, Gemini, coding agents, or no AI at all. |
