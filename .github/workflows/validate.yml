@@ -1,0 +1,30 @@
+# Hard Memory validation: the two gates from tools/, run on push and PR.
+# Adapted from the workflow the original Hard Memory system runs.
+
+name: Validate Hard Memory
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  gates:
+    name: Forbidden Patterns & Facts Freshness
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Gate script self-test
+        run: python3 tools/check_forbidden_patterns.py --self-test
+
+      - name: Forbidden-pattern scan (HR-011)
+        run: python3 tools/check_forbidden_patterns.py .
+
+      - name: Facts freshness, 60-day rule (HR-006)
+        run: python3 tools/check_facts_freshness.py registers/FACTS.md
