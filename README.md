@@ -18,6 +18,7 @@ Chat history is not memory. Hard Memory is a set of plain markdown files that ho
 | `registers/` | Structured tables (CSV) for anything you will look up twice: assets, inventory, contacts, content, accounts. Recall becomes a lookup, not a re-audit. |
 | `modules/` | Optional rule packs you adopt or delete: workflow gates for delegated work, and evidence standards for research. |
 | `tools/` | The enforcement scripts: a facts-freshness checker, a forbidden-pattern gate, a trigger-file version stamper, and a branch verification script, each mapped to the hard rule it enforces. |
+| `lite/` | The Lite edition: the same core files, rules, and registers, set up to run from a single Google Drive folder. No GitHub, no Git, no scripts; the gates are done by hand. |
 | `USE_CASE.md` | A real use case, scrubbed of names and private details: how this system runs two long projects at once, and how to map it to your own work. |
 | `SETUP.md` | The interview. Answer the questions and your core files are drafted. |
 | `ADAPTERS.md` | How to point different AI tools at these files: Muse, ChatGPT, Gemini, coding agents, or no AI at all. |

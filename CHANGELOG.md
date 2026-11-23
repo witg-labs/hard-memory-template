@@ -2,6 +2,10 @@
 
 All notable changes to the Hard Memory Template. Versions are pinned with git tags.
 
+## [Unreleased]
+
+- Lite edition in `lite/`: a Google Drive based edition of the template that does not use GitHub. Same core files, hard rules, and registers, adapted for Drive (version history instead of tags, gates done by hand per `lite/GATES_BY_HAND.md`), with its own `README.md` and `SETUP.md`.
+
 ## [1.0.0] - 2026-11-22
 
 First tagged release.
